@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./proto"
+
+package greetService;
+
+service GreetService{
+    rpc SayHelloRes(NoParam) return (HelloRes);
+
+}
+
+
+
+
